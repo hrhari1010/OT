@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interval Halving </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Interval Halving</h1>
+        <h3>Optimization</h3>
+    </div>
+    <div class="content">
+        <p>solve for the equation</p>
+        <div class="eq">
+            <h3>f(x) = </h3>
+            <input type="number" id="x">x
+            <input type="number" id="x2">x^2
+            <input type="number" id="x3">x^3
+            <input type="number" id="x4">x^4
+            <input type="number" id="x5">x^5
+            
+        </div>
+        <div class="cond">
+            <p>Initial vaulue (a) = <input type="number" id="a"></p>
+            <p>Final vaulue (b) = <input type="number" id="b"></p>
+            <p>Threshold (e) = <input type="number" id="e"></p>
+            <p>Iteration (n) = <input type="number" id="n"></p>
+        </div>
+        <button class="solvebutton" id="solve">Solve</button>
+
+        <div class="log">
+            <h3 class="res" id="result"></h3>
+        </div>
+    </div>
+ <script src="index.js"></script>   
+</body>
+</html>
